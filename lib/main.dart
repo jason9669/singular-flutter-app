@@ -178,7 +178,7 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
       );
 
   initPlatformState() async {
-    SingularConfig config = SingularConfig('se_team_9b3431b0', 'bcdee06e8490949422c071437da5c5ed');
+    SingularConfig config = SingularConfig('<SDK_KEY>', '<SDK_SECRET>');
     config.waitForTrackingAuthorizationWithTimeoutInterval = 300;
     config.skAdNetworkEnabled = true;
     config.clipboardAttribution = true;
